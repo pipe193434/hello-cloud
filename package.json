@@ -1,0 +1,24 @@
+{
+  "name": "hello-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipe193434/hello-cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipe193434/hello-cloud/issues"
+  },
+  "homepage": "https://github.com/pipe193434/hello-cloud#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
