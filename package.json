@@ -1,10 +1,11 @@
 {
   "name": "hello-cloud",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "test": "echo \"(sin tests)\""
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,6 @@
     "url": "https://github.com/pipe193434/hello-cloud/issues"
   },
   "homepage": "https://github.com/pipe193434/hello-cloud#readme",
-  "type": "module",
   "dependencies": {
     "express": "^5.1.0"
   }
